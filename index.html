@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --background-color: #D7DEE4;
+            --label-color: #778897;
+            --blue-color: #0601ae;
+        }
+        
+        .main-container {
+            width: 600px;
+            height: 864px;
+            padding: 24px;
+    
+  margin-right: 350px;
+  margin-left: 350px;
+         
+        }
+        
+        .body-container {
+            width: 584px;
+            height: 582px;
+            background-color: var(--background-color);
+            padding: 32px 24px;
+        }
+
+        .tag-badge {
+            background-color: var(--blue-color) !important;
+            color: white !important;
+            padding: 6px 12px !important;
+            margin: 0 8px 8px 0;
+            font-weight: 400 !important;
+        }
+
+        .label-text {
+            color: var(--label-color);
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        .section-container {
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .header-title {
+            color: #666;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .btn-edit {
+            background-color: white !important;
+            color: var(--blue-color) !important;
+            border: 1px solid #dee2e6 !important;
+            padding: 6px 16px !important;
+            font-size: 14px !important;
+        }
+
+        .close-button {
+            margin-top: 32px;
+            padding: 10px;
+        }
+
+        .info-group {
+            padding: 24px;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+
+        .tag-group {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Header Section -->
+        <div class="d-flex justify-content-between align-items-start mb-4">
+            <div>
+                <div class="d-flex align-items-center mb-3">
+                    <svg class="me-2" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+                        <line x1="7" y1="7" x2="7.01" y2="7"/>
+                    </svg>
+                    <span class="header-title">Tag Details</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <svg class="me-2" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+                        <line x1="7" y1="7" x2="7.01" y2="7"/>
+                    </svg>
+                    <span class="header-subtitle">Roaa Tag</span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <button class="btn p-2 me-2">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+                <button class="btn btn-edit">Edit tag information →</button>
+            </div>
+        </div>
+
+        <!-- Body Section -->
+        <div class="body-container rounded">
+            <!-- Info Section -->
+            <div class="info-group">
+                <div class="d-flex justify-content-between mb-3">
+                    <span class="label-text mb-0">Tag Name</span>
+                    <span>Roaa Tag</span>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span class="label-text mb-0">Created Date</span>
+                    <span>2023-11-06 14:44:32</span>
+                </div>
+            </div>
+
+            <!-- Accounts Section -->
+            <div class="section-container">
+                <div class="label-text">Accounts</div>
+                <div class="tag-group">
+                    <span class="badge tag-badge">Roaa Sawalmeh</span>
+                </div>
+            </div>
+
+            <!-- Units Section -->
+            <div class="section-container">
+                <div class="label-text">Units</div>
+                <div class="tag-group">
+                    <span class="badge tag-badge">Test Car</span>
+                    <span class="badge tag-badge">الميكوديلي</span>
+                    <span class="badge tag-badge">كيادي 1702</span>
+                    <span class="badge tag-badge">بريكسر - 2512</span>
+                    <span class="badge tag-badge">Sprinter-1249</span>
+                    <span class="badge tag-badge">مرسيدس 518</span>
+                    <span class="badge tag-badge">كندي Aljaber</span>
+                    <span class="badge tag-badge">سيات - 0054</span>
+                    <span class="badge tag-badge">متسوبيشي هنتر 5160</span>
+                    <span class="badge tag-badge">امريكي 1568</span>
+                    <span class="badge tag-badge">سوزة</span>
+                </div>
+            </div>
+
+            <!-- Drivers Section -->
+            <div class="section-container">
+                <div class="label-text">Drivers</div>
+                <div class="tag-group">
+                    <span class="badge tag-badge">Firas Shaarawi</span>
+                    <span class="badge tag-badge">Ashraf Skafi</span>
+                    <span class="badge tag-badge">Ahmad</span>
+                    <span class="badge tag-badge">Ahmad</span>
+                    <span class="badge tag-badge">Driver1</span>
+                    <span class="badge tag-badge">Tawfiq1</span>
+                </div>
+            </div>
+
+            <!-- Areas Section -->
+            <div class="section-container border-0">
+                <div class="label-text">Areas</div>
+                <div class="tag-group">
+                    <span class="badge tag-badge">Test#1</span>
+                    <span class="badge tag-badge">وكالة هونداي</span>
+                    <span class="badge tag-badge">Test Test</span>
+                    <span class="badge tag-badge">Roa Test</span>
+                    <span class="badge tag-badge">New Test</span>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <button class="btn btn-light w-100 close-button">Close</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
